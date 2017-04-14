@@ -38,6 +38,7 @@ RUN curl --silent --show-error -o /usr/local/src/gdal-${GDAL_VERSION}.tar.gz ${G
     --with-geos \
     --with-spatialite \
     --with-pg \
+    --with-odbc \
     --with-curl \
     --with-libkml \
     --with-wfs \
